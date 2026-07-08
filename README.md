@@ -28,11 +28,11 @@ El proyecto responde a seis preguntas clave:
 
 ## 📂 Fuentes de datos
 
-- `rappiplus_orders_raw.csv` — pedidos, precios, descuentos e ingresos
-- `rappiplus_catalog.csv` — costos, categorías y proveedores de productos
-- `rappiplus_marketing_spend.csv` — inversión en marketing por canal y país
+- Pedidos, precios, descuentos e ingresos
+- Costos, categorías y proveedores de productos
+- Inversión en marketing por canal y país
 - Tablas SQL (`events`, `users`, `user_activity`) — comportamiento de usuarios
-- `experiment_checkout_ui.csv` — resultados de un experimento A/B en el checkout
+- Resultados de un experimento A/B en el checkout
 
 ---
 
@@ -121,15 +121,16 @@ el 95% de margen. *El producto que más vende no es el más rentable.*
 
 ---
 
-## 📁 Estructura del repositorio
+## 📁 Archivos del repositorio
 
-```
-├── notebook/
-│   └── rappiplus_analisis.ipynb      # Análisis completo (Pasos 1-5)
-├── data/
-│   ├── orders_clean.csv              # Datasets limpios (salida del Paso 1)
-│   ├── catalog_clean.csv
-│   └── marketing_clean.csv
-├── dashboard/
-│   └── rappiplus_dashboard.pbix      # Dashboard de Power BI
-└── README.md
+| Archivo | Descripción |
+|---------|-------------|
+| `RappiPlus_notebook_limpio.ipynb` | Análisis completo en Python y SQL (Pasos 1–5) |
+| `orders_clean.csv` | Dataset de pedidos limpio (salida del Paso 1) |
+| `catalog_clean.csv` | Dataset de catálogo limpio |
+| `marketing_clean.csv` | Dataset de marketing limpio |
+| `Dashboard.pbix` | Dashboard interactivo de Power BI (Paso 6) |
+
+> **Nota:** el notebook incluye consultas SQL a una base de datos PostgreSQL. Las
+> credenciales de conexión fueron reemplazadas por marcadores (`TU_USUARIO`,
+> `TU_PASSWORD`, etc.) por motivos de seguridad.
