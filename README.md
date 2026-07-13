@@ -96,7 +96,7 @@ Dos dashboards interactivos:
 
   | Overview Ejecutivo | Detalle / Drill-through |
 |---|---|
-| ![Overview Ejecutivo](images/overview.png) | ![Detalle](images/detalle.png) |
+| ![Overview Ejecutivo](images/overview.png) | ![Detalles](images/detalle.png) |
 
 **Drill-through en acción** — detalle de pedidos de Laptop-Gaming-16GB, el producto que genera pérdidas:
 
