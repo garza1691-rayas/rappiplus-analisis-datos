@@ -94,6 +94,14 @@ Dos dashboards interactivos:
 - **Detalle / Drill-through:** tabla con formato condicional, unidades vendidas por
   producto, y navegación drill-through para explorar los pedidos de cada producto.
 
+  | Overview Ejecutivo | Detalle / Drill-through |
+|---|---|
+| ![Overview Ejecutivo](images/overview.png) | ![Detalle](images/detalle.png) |
+
+**Drill-through en acción** — detalle de pedidos de Laptop-Gaming-16GB, el producto que genera pérdidas:
+
+![Drill-through Laptop-Gaming](images/drillthrough.png)
+
 ➡️ **Hallazgo destacado:** la **Laptop-Gaming-16GB genera pérdidas de ~$94K** (su
 costo supera su ingreso), mientras que productos como Vacuum-Pro y Phone-Pro superan
 el 95% de margen. *El producto que más vende no es el más rentable.*
