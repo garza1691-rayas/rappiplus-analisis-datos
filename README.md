@@ -132,8 +132,6 @@ el 95% de margen. *El producto que más vende no es el más rentable.*
 
 1. Clona el repo e instala las dependencias:
 
-   1. Clona el repo e instala las dependencias:
-
 ```bash
    pip install -r requirements.txt
 ```
