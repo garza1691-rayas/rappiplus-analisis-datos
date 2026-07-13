@@ -132,10 +132,11 @@ el 95% de margen. *El producto que más vende no es el más rentable.*
 
 1. Clona el repo e instala las dependencias:
 
-   `` ```bash ``
-  `pip install -r requirements.txt`
-   `` ``` ``
+   1. Clona el repo e instala las dependencias:
 
+```bash
+   pip install -r requirements.txt
+```
 3. Abre `RappiPlus_notebook_limpio.ipynb` con Jupyter Notebook o VS Code.
 4. **Nota:** las celdas de SQL requieren credenciales propias de PostgreSQL (reemplaza `TU_USUARIO`, `TU_PASSWORD`, etc.). Sin esa conexión, puedes ejecutar igualmente todas las celdas de Python/pandas (Pasos 1, 2 y 5) usando los CSV incluidos.
 5. Para ver el dashboard interactivo, abre `Dashboard.pbix` con [Power BI Desktop](https://www.microsoft.com/es-mx/power-platform/products/power-bi/desktop) (gratuito).
